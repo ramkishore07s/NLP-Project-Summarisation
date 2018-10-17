@@ -2,7 +2,7 @@
 ---
 ## Logistic Regression and Naive Bayes
 
-### Dataset:
+### <a href='https://docs.google.com/uc?id=0B0Obe9L1qtsnSXZEd0JCenIyejg&export=download'>Dataset</a>:
 * We use the Dataset given by <a href='https://aclweb.org/anthology/P16-1046'>Cheng et. al. 2016</a> which include several additions. 
 
 ### **Modifications to the original data by <a href='https://aclweb.org/anthology/P16-1046'>Cheng et. al. 2016</a>.**

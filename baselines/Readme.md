@@ -7,10 +7,23 @@
 * NERed Data. All the named entities are replaced with unique tags.
 * Truth labels for sentences to be extracted are generated using paralled corpora.
 
-### Preprocessing
-* Download the <a href='https://docs.google.com/uc?id=0B0Obe9L1qtsnSXZEd0JCenIyejg&export=download'>zip file</a> and put it in the root folder of the project.
-* run `./run.sh`.
-* run the `Feature Extraction.ipynb` notebook in folder `baselines/`
+### Feature Extraction
+* run the `Feature Extraction.ipynb`
+
+**Features Considered for each line:**
+* Number of Verbs (POS)
+* Number of Stop words (nltk stop word list)
+* Number of Named Entities
+* Number of Pronouns (POS)
+* Position in document 
+* Sentence Length
+
+**May include in Future:**
+* Discourse Cues
+* Sentiment
+* Salience
+* Uniqueness
+* Has Money
 
 ### Helper functions
 Run these two lines in IPython notebook to get all the features:

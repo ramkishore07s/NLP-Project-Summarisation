@@ -1,3 +1,25 @@
+# Logistic Regression:
+
+## Features and their weights:
+| Features | Learned Weights| Comment |
+| ----------- | ---------- | --------------------------- |
+| No. of pronouns |  -0.031 |  Pronouns indicate dependency on other sentences |
+| No. of verbs |  0.035 | Verbs indicate importance of sentence. More verbs -> more events |
+| No. of Named entities |  0.229 | Most important feature. Signifies both importance and Independence |
+| length of sentence |  0.079 |  Longer sentences are better |
+| Position of sentence in document | -0.039 |  Sentences occuring early in the document are better |
+| No. of stop words |  -0.088 |  More stop words, less importance |
+
+## Results on Cheng data: 
+<b>(scores mentioned are based on truth labels and not ROUGE)</b>
+| Measure | Percentage|
+| --------------- | ----------------- | 
+| Precision | 38% |
+| Recall | 85.6% |
+| F1 score | 52.8% |
+
+## Sample Output
+
 ### Sample Text Document: 
 
 * @entity1 's agent expects to go ' around the world ' discussing his client as interest in the @entity6 midfielder increases ahead of the summer transfer window

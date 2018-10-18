@@ -12,6 +12,7 @@
 
 ## Results on Cheng data: 
 <b>(scores mentioned are based on truth labels and not ROUGE)</b>
+
 | Measure | Percentage|
 | --------------- | ----------------- | 
 | Precision | 38% |

@@ -1,4 +1,4 @@
-DATASET_FOLDER = '/home/ramkishore.s/acad/project/Dataset/'
+DATASET_FOLDER = '../../Dataset/'
 SUMMARY_FOLDER = DATASET_FOLDER + 'Summaries/'
 TEXT_FOLDER = DATASET_FOLDER + 'Text/'
 OUTPUT_FOLDER = DATASET_FOLDER + 'Cheng_outputs/'

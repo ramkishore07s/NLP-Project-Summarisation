@@ -11,3 +11,6 @@
 ### Preprocessing
 * Download the <a href='https://docs.google.com/uc?id=0B0Obe9L1qtsnSXZEd0JCenIyejg&export=download'>zip file</a> and put it in the root folder of the project.
 * run `./run.sh`.
+
+### Results:
+* <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/baselines/Logistic%20Regression/Readme.md'>Logistic Regression</a>.

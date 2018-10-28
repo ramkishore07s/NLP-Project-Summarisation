@@ -2,7 +2,7 @@
 Inspired by Pagerank algorithm used by Google Search to rank websites in  their search engine results. TextRank is a graph-based ranking algorithm for NLP. For keyphrase extraction, it builds a graph using some set of text units as vertices and then runs the algorithm on a graph. This method allows us to select sentences or phrases for 
 the summary so as in incorporate diversity as well as a ranking system for how likely it is for the text unit to be a part of the summary. 
 
-## Features and their weights:
+## Features:
 This is a completely unsupervised approach compared to the supervised approaches that we use in the baselines.
 
 ## Results on Cheng data: 

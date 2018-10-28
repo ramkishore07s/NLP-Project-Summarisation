@@ -92,7 +92,7 @@ for i in range(size):
     sent_id = s[i][0]
     selected.append(sent_id)
     print(sent_id)
-    # print(id_to_sent[sent_id],'.')
+    print(id_to_sent[sent_id],'.')
 
 with open('summary.pkl', 'wb') as f:
     pickle.dump(selected, f)

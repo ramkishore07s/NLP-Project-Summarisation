@@ -13,7 +13,7 @@
 * run `./run.sh`.
 
 ### Results:
-* <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/baselines/Logistic%20Regression/Readme.md'>Logistic Regression</a>.
+* <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/BaseLines/Logistic%20Regression/Readme.md'>Logistic Regression</a>.
 * <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/BaseLines/Naive%20Bayes/Readme.md'>Naive Bayes</a>
 * <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/GraphModels/TextRank/Readme.md'>TextRank</a>
 

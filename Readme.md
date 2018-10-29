@@ -16,3 +16,6 @@
 * <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/baselines/Logistic%20Regression/Readme.md'>Logistic Regression</a>.
 * <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/BaseLines/Naive%20Bayes/Readme.md'>Naive Bayes</a>
 * <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/GraphModels/TextRank/Readme.md'>TextRank</a>
+
+### Evaluation:
+*  <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/NLP-Project-Summarisation/EVAL/Readme.md'>ROUGE-1.5.5</a>

@@ -18,4 +18,4 @@
 * <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/GraphModels/TextRank/Readme.md'>TextRank</a>
 
 ### Evaluation:
-*  <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/NLP-Project-Summarisation/EVAL/Readme.md'>ROUGE-1.5.5</a>
+*  <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/EVAL/Readme.md'>ROUGE-1.5.5</a>

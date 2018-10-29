@@ -22,9 +22,7 @@ Sigma =  [
 
 | Measure | Percentage|
 | --------------- | ----------------- | 
-| Precision | 38% |
-| Recall | 85.6% |
-| F1 score | 52.8% |
+| Accuracy | 51.56% |
 
 ## Sample Output
 

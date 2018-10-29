@@ -14,4 +14,4 @@
 
 ### Results:
 * <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/blob/master/baselines/Logistic%20Regression/Readme.md'>Logistic Regression</a>.
-* <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/Graph Models/TextRank/Readme.md'>TextRank</a>
+* <a href='https://github.com/ramkishore07s/NLP-Project-Summarisation/GraphModels/TextRank/Readme.md'>TextRank</a>

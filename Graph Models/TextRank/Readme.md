@@ -8,11 +8,11 @@ This is a completely unsupervised approach compared to the supervised approaches
 ## Results on Cheng data: 
 <b>(scores mentioned are based on truth labels and not ROUGE)</b>
 
-<!-- | Measure | Percentage|
+| Measure | Percentage|
 | --------------- | ----------------- | 
-| Precision | 38% |
-| Recall | 85.6% |
-| F1 score | 52.8% | -->
+| Precision | 16.95% |
+| Recall | 87.43% |
+| F1 score | 28.4% |
 
 ## Code Execution:
 ```bash

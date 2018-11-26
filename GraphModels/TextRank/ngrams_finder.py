@@ -78,19 +78,25 @@ for gram in tags:
 
 G = nx.Graph()
 
+plt.ion()
+plt.show()
+
 for edge in edges_list:
     #print(edge[0][0],edge[1][0])
     G.add_node(edge[0])
     G.add_node(edge[1])
     G.add_edge(edge[0],edge[1])
 
-# print(G.nodes(),G.edges())
-plt.ion()
-plt.show()
+    nx.draw(G)
+    plt.draw()
+    plt.pause(0.001)
+    plt.clf()
 
-nx.draw(G)
-plt.draw()
-plt.pause(0.5)
+# print(G.nodes(),G.edges())
+
+# nx.draw(G)
+# plt.draw()
+# plt.pause(0.5)
 
 all_nodes = G.nodes()
 

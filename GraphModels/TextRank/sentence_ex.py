@@ -34,6 +34,9 @@ count = 0
 
 G = nx.Graph()
 
+plt.ion()
+plt.show()
+
 for i in range(no_of_sents):
     for j in range(i+1,no_of_sents):
         weight = float(0)
@@ -68,8 +71,10 @@ for i in range(no_of_sents):
         w = weight
         G.add_edge(sent_to_id[temp1],sent_to_id[temp2],weight=w)
 
-nx.draw(G)
-plt.show()
+    nx.draw(G)
+    plt.draw()
+    plt.pause(0.001)
+    plt.clf()
 
 sent_scores = nx.pagerank(G,0.85)
 

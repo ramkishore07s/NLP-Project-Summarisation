@@ -7,7 +7,6 @@ class SummaRuNNer(nn.Module):
     def __init__(self, **kwargs):
         super(SummaRuNNer, self).__init__()
 
-        # Parameters
         self.vocab_size = kwargs['vocab_size']
         self.embedding_dim = kwargs['embedding_dim']
         self.position_size = kwargs['position_size']
@@ -17,7 +16,6 @@ class SummaRuNNer(nn.Module):
         self.word_GRU_hidden_units = kwargs['word_GRU_hidden_units']
         self.sent_GRU_hidden_units = kwargs['sent_GRU_hidden_units']
         
-        # Network
         self.word_embedding = nn.Embedding(self.vocab_size, self.embedding_dim)
         self.word_embedding.weight.data.copy_(torch.from_numpy(kwargs['pretrained_embedding']))
         self.position_embedding = nn.Embedding(self.position_size, self.position_dim)
@@ -40,7 +38,6 @@ class SummaRuNNer(nn.Module):
         self.fc1 = nn.Linear(400, 100)
         self.fc2 = nn.Linear(400, 100)
         
-        # Parameters of Classification Layer
         self.Wc = Parameter(torch.randn(1, 100))
         self.Ws = Parameter(torch.randn(100, 100))
         self.Wr = Parameter(torch.randn(100, 100))
@@ -58,16 +55,15 @@ class SummaRuNNer(nn.Module):
         sequence_length = torch.sum(torch.sign(x), dim = 1).data
         sequence_num = sequence_length.size()[0]
 
-        # word level GRU
         word_features = self.word_embedding(x)
         word_outputs, _ = self.word_GRU(word_features)
-        # sentence level GRU
+
         sent_features = self._avg_pooling(word_outputs, sequence_length)
         sent_outputs, _ = self.sent_GRU(sent_features.view(1, -1, self.sent_input_size))
-        # document representation
+
         doc_features = self._avg_pooling(sent_outputs, [[x.size(0)]])
         doc = torch.transpose(self.tanh(self.fc1(doc_features)), 0, 1)
-        # classifier layer
+
         outputs = []
         sent_outputs = sent_outputs.view(-1, 2 * self.sent_GRU_hidden_units)
         
